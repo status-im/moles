@@ -1,5 +1,7 @@
 package moles
 
+import "github.com/decanus/moles/group"
+
 type ApplicationMessageContent struct {
 	Content   []byte
 	Signature []byte
@@ -12,4 +14,12 @@ type ApplicationMessage struct {
 	Generation       uint32
 	Sender           uint32
 	EncryptedContent []byte
+}
+
+type Handshake struct {
+	PriorEpoch   uint32
+	Operation    group.Operation
+	SignerIndex  uint32
+	Signature    []byte
+	Confirmation []byte
 }
