@@ -1,6 +1,6 @@
 package operations
 
-import "github.com/decanus/moles"
+import "github.com/status-im/moles"
 
 type Update struct {
 	Path moles.DirectPath

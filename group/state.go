@@ -1,8 +1,8 @@
 package group
 
 import (
-	"github.com/decanus/moles"
-	"github.com/decanus/moles/group/operations"
+	"github.com/status-im/moles"
+	"github.com/status-im/moles/group/operations"
 )
 
 type State struct {

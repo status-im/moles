@@ -1,6 +1,6 @@
 package operations
 
-import "github.com/decanus/moles"
+import "github.com/status-im/moles"
 
 type Remove struct {
 	Removed uint32

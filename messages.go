@@ -1,6 +1,6 @@
 package moles
 
-import "github.com/decanus/moles/group"
+import "github.com/status-im/moles/group"
 
 type ApplicationMessageContent struct {
 	Content   []byte
