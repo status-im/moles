@@ -9,9 +9,9 @@ type BasicCredential struct {
 }
 
 type Credential struct {
-	Type CredentialType
+	Type  CredentialType
 	Basic BasicCredential
-	X509 struct {
+	X509  struct {
 		CertData []byte
 	}
 }
