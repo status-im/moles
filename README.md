@@ -1,4 +1,4 @@
-# moles
+# Moles
 
 [![License](https://img.shields.io/github/license/status-im/moles.svg)](LICENSE)
 
